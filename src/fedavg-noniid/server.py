@@ -57,7 +57,7 @@ def evaluate_config(server_round: int) -> Dict:
   return {"server_round": server_round}
 
 
-class SaveModelStrategy(fl.server.strategy.FedAvg):
+class SaveModelStrategy(fl.server.strategy.FedTrimmedAvg):
   def aggregate_fit(
     self,
     server_round: int,

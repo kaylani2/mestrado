@@ -82,7 +82,7 @@ def load_compiled_model (model='MobileNetV2'):
 
 
   try:
-    model.load_weights('weights.h5')
+    model.load_weights('REAL-model_round-250-12clients250rounds-weights.h5')
     print('Loaded weights!!!!!!!!')
   except:
     print('Failed to load weights!!!!!!!!')

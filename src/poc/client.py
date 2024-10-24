@@ -90,4 +90,4 @@ class MNISTClient(fl.client.NumPyClient):
     log(INFO, f"Client {client_index} achieved loss={loss} and accuracy={accuracy} on round: {current_round} with config: {config}")
     return loss, len(x_test), {"accuracy": float(accuracy)}
 
-fl.client.start_numpy_client(server_address="172.31.46.102:50077", client=MNISTClient())
+fl.client.start_numpy_client(server_address="18.229.162.72:50077", client=MNISTClient())
