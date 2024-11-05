@@ -2,10 +2,11 @@ import random
 from collections import Counter
 import matplotlib.pyplot as plt
 import math
-CLIENTS_TO_INCLUDE=[6,12,19, 25]
+CLIENTS_TO_INCLUDE=[6,12, 19, 25]
 plt.rc('xtick', labelsize=28)
 plt.rc('ytick', labelsize=28)
 
+### K: MNIST
 #samples = {
 #  '0': 5923,
 #  '1': 6742,
@@ -17,6 +18,21 @@ plt.rc('ytick', labelsize=28)
 #  '7': 6265,
 #  '8': 5851,
 #  '9': 5949,
+#}
+
+### K: CIFAR10
+### K: The names don't matter, I've kept them as indices. Each class has 6,000 samples.
+#samples = {
+#  '0': 6000,
+#  '1': 6000,
+#  '2': 6000,
+#  '3': 6000,
+#  '4': 6000,
+#  '5': 6000,
+#  '6': 6000,
+#  '7': 6000,
+#  '8': 6000,
+#  '9': 6000,
 #}
 #
 #
